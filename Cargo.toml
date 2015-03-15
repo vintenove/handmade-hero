@@ -1,0 +1,12 @@
+[package]
+
+name = "handmade_hero"
+version = "0.0.1"
+authors = ["Marco Vintenove <marcovintenove@gmail.com>"]
+
+[dependencies]
+bitflags = "0.1"
+libc = "*"
+
+[dependencies.cocoa]
+git = "https://github.com/servo/rust-cocoa"

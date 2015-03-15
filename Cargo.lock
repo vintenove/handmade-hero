@@ -1,0 +1,28 @@
+[root]
+name = "handmade_hero"
+version = "0.0.1"
+dependencies = [
+ "bitflags 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "cocoa 0.1.1 (git+https://github.com/servo/rust-cocoa)",
+ "libc 0.1.3 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "bitflags"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "cocoa"
+version = "0.1.1"
+source = "git+https://github.com/servo/rust-cocoa#ca3441a14783aa0683e073f1a1f990ed21900718"
+dependencies = [
+ "bitflags 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "libc 0.1.3 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "libc"
+version = "0.1.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
